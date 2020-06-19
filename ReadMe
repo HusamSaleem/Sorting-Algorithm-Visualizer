@@ -1,5 +1,6 @@
 This program is designed to help people see how sorting algorithms are working visually
 
+
 To run this program, just run the main driver class.. SortVisualizer.java, and you can edit the array's size in that file, as well as animation speed, order of sorting algorithms, etc....
 
 Currently has 8 sorting algorithms...
