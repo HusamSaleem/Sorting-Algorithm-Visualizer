@@ -16,7 +16,9 @@ import SortAlgs.Heap;
 import SortAlgs.InsertionSort;
 import SortAlgs.MergeSort;
 import SortAlgs.QuickSort;
+import SortAlgs.RadixSort;
 import SortAlgs.SelectionSort;
+import SortAlgs.ShellSort;
 import SortAlgs.TreeSort;
 
 /**
@@ -69,6 +71,7 @@ public class SortVisualizer extends JPanel {
 	 * <p>
 	 */
 	public void startSortingAlgorithms() {
+		runShellSort();
 		runHeapSort();
 		runQuickSort();
 		runMergeSort();
@@ -326,6 +329,23 @@ public class SortVisualizer extends JPanel {
 		treeSort.runTreeSort();
 		reset();
 	}
+	
+	private void runShellSort() {
+		ShellSort shell = new ShellSort();
+		setUiText(shell);
+		
+		
+		shell.runSort(arrToSort);
+		reset();
+	}
+//	
+//	private void runRadixSort() {
+//		RadixSort radixSort = new RadixSort();
+//		setUiText(radixSort);
+//		
+//		radixSort.runSort(arrToSort);
+//		reset();
+//	}
 
 	private void runBogoSort() {
 		BogoSort bogoSort = new BogoSort();

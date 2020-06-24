@@ -3,7 +3,7 @@ This program is designed to help people see how sorting algorithms are working v
 
 To run this program, just run the main driver class.. SortVisualizer.java, and you can edit the array's size in that file, as well as animation speed, order of sorting algorithms, etc....
 
-Currently has 8 sorting algorithms...
+Currently has 10 sorting algorithms...
 1. Heap Sort
 2. Quick Sort
 3. Bubble Sort
@@ -11,4 +11,6 @@ Currently has 8 sorting algorithms...
 5. Merge Sort
 6. Selection Sort
 7. Tree Sort
-8. Bogo Sort (Ok this one doesn't really count though)
+8. Shell Sort
+9. Radix Sort (Visualization not complete)
+10. Bogo Sort (Ok this one doesn't really count though)
